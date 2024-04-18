@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aiplab17.task14.Controller">
+   <children>
+      <Label fx:id="labelA" layoutX="117.0" layoutY="85.0" prefHeight="25.0" prefWidth="23.0" text="a" />
+      <Label id="labelB" fx:id="labelB" layoutX="117.0" layoutY="124.0" prefHeight="25.0" prefWidth="23.0" text="b" />
+      <Label id="labelSum" fx:id="labelSum" layoutX="117.0" layoutY="159.0" text="sum" />
+      <TextField fx:id="TextA" layoutX="193.0" layoutY="81.0" />
+      <TextField fx:id="TextB" layoutX="193.0" layoutY="120.0" />
+      <TextField fx:id="TextSum" layoutX="193.0" layoutY="155.0" />
+      <Button id="buttonCalculate" fx:id="buttonCalculate" layoutX="193.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickCalculate" prefHeight="25.0" prefWidth="149.0" text="Calculate" />
+      <Button id="buttonClear" fx:id="buttonClear" layoutX="193.0" layoutY="269.0" mnemonicParsing="false" onAction="#clickClear" prefHeight="25.0" prefWidth="149.0" text="Clear" />
+   </children>
+</AnchorPane>
